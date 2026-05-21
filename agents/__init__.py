@@ -1,0 +1,1 @@
+from agents.coordinator import root_agent

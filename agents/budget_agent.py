@@ -4,7 +4,7 @@ from tools.search_tools import web_search
 
 budget_agent = LlmAgent(
     name="budget_agent",
-    model="gemini-2.0-flash",
+    model="gemini-flash-latest",
     description=(
         "Specialist for travel budget estimation including flights, accommodation, "
         "food, and activities. Delegate questions about cost, budget, or pricing here."

@@ -4,7 +4,7 @@ from tools.search_tools import web_search
 
 destination_agent = LlmAgent(
     name="destination_agent",
-    model="gemini-2.0-flash",
+    model="gemini-flash-latest",
     description=(
         "Specialist for destination information: visa requirements, local culture, "
         "attractions, language, currency. Delegate practical questions about places here."

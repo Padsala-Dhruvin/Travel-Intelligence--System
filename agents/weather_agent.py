@@ -3,7 +3,7 @@ from tools.weather_tools import geocode_city, get_weather_forecast
 
 weather_agent = LlmAgent(
     name="weather_agent",
-    model="gemini-2.0-flash",
+    model="gemini-flash-latest",
     description=(
         "Specialist for weather forecasts and packing recommendations. "
         "Delegate to this agent for any questions about weather, climate, "

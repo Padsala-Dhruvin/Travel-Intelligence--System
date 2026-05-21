@@ -5,7 +5,7 @@ from agents.destination_agent import destination_agent
 
 root_agent = LlmAgent(
     name="travel_coordinator",
-    model="gemini-2.0-flash",
+    model="gemini-flash-latest",
     description="Top-level coordinator for travel intelligence queries.",
     instruction=(
         "You are a travel intelligence coordinator. Your job is to break down the "
